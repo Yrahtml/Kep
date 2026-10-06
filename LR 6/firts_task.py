@@ -6,4 +6,4 @@ for i in range(len(numbers)):
     if numbers[i] > average:
         bigger.append(numbers[i])
         i+1 
-print(average , bigger)
+print(f"Середнє значення вашого списку {average}\n Числа що більші за середнє значення {bigger}")
